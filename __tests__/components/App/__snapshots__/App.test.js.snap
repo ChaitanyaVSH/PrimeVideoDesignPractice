@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`VideoCard Component is rendering should maintain the older snapshot 1`] = `
+exports[`App Component is rendering should maintain the older snapshot 1`] = `
 <div
   className="App"
 >
   <h1>
-    Welcome to My world
+    Welcome to Prime Video
   </h1>
   <VideoCard />
 </div>

@@ -3,9 +3,10 @@ const {defaults} = require('jest-config');
 module.exports = {
     clearMocks: true,
     moduleFileExtensions: [...defaults.moduleFileExtensions, 'js', 'jsx'],
+    coverageDirectory: "coverage/",
     collectCoverageFrom: [
         "src/**/*.{js,jsx}",
-        "!**/node_modules/**",
+        "!node_modules/**",
     ],
     setupFiles: ["<rootDir>/enzyme.config.js"],
     snapshotSerializers: ["enzyme-to-json/serializer"],

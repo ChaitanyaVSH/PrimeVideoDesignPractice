@@ -1,9 +1,120 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`VideoCard Component is rendering should maintain the older snapshot 1`] = `
-<div>
-  <h1>
-    This is the Video Card
-  </h1>
+<div
+  className="videoCard"
+>
+  <div
+    className="videoCardTransparent"
+  >
+    <a>
+      Naayak
+    </a>
+    <div
+      className="bottomDiv"
+    >
+      <div>
+        <button
+          className="btn"
+        >
+          <V
+            border={false}
+            brand={false}
+            className=""
+            fab={false}
+            fal={false}
+            far={false}
+            fixed={false}
+            flip=""
+            icon="play"
+            inverse={false}
+            light={false}
+            list={false}
+            pull=""
+            pulse={false}
+            regular={false}
+            rotate=""
+            size="lg"
+            spin={false}
+            stack=""
+          />
+           
+          Play
+        </button>
+        <button
+          className="circle"
+        >
+          <V
+            border={false}
+            brand={false}
+            className=""
+            fab={false}
+            fal={false}
+            far={false}
+            fixed={false}
+            flip=""
+            icon="plus"
+            inverse={false}
+            light={false}
+            list={false}
+            pull=""
+            pulse={false}
+            regular={false}
+            rotate=""
+            size="lg"
+            spin={false}
+            stack=""
+          />
+        </button>
+        <button
+          className="circle"
+        >
+          <V
+            border={false}
+            brand={false}
+            className=""
+            fab={false}
+            fal={false}
+            far={false}
+            fixed={false}
+            flip=""
+            icon="info"
+            inverse={false}
+            light={false}
+            list={false}
+            pull=""
+            pulse={false}
+            regular={false}
+            rotate=""
+            size="lg"
+            spin={false}
+            stack=""
+          />
+        </button>
+      </div>
+      <div
+        className="bottomDivTwo"
+      >
+        <Badge
+          pill={false}
+          variant="danger"
+        >
+          18+
+        </Badge>
+         
+         
+        <span>
+          Comedy
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="videoCardNonTransparent"
+  >
+    <div
+      className="videoCardNonTransparentContent"
+    />
+  </div>
 </div>
 `;

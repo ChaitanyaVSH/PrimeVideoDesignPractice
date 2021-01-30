@@ -1,0 +1,90 @@
+a {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+span {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.videoCard {
+  display: flex;
+  border-radius: 26px;
+  width: 70%;
+  height: 480px;
+  margin: auto;
+  background-color: black;
+}
+
+.videoCardTransparent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom-left-radius: 26px;
+  border-top-left-radius: 26px;
+  width: 40%;
+  padding: 2rem;
+  background-color: rgba(255, 5, 38, 0.15);
+  backdrop-filter: blur(5px);
+  color: white;
+}
+
+.bottomDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+
+.bottomDivTwo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.btn {
+  margin: 5px;
+  padding: 8px;
+  width: 120px;
+  height: 48px;
+  border: none;
+  background-color: #16c79a;
+  color: white;
+  border-radius: 40px;
+}
+
+.btn:hover {
+  border-radius: 0;
+}
+
+.btn > * {
+  margin-right: 10px;
+}
+
+.circle {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 48px;
+  width: 48px;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 0.8;
+  transition: opacity 0.3s;
+  border-radius: 50%;
+  border: 2px solid lightgray;
+  margin: 8px;
+  color: white;
+}
+
+.circle:hover {
+  background-color: black;
+}
+
+.videoCardNonTransparentContent {
+  margin-top: 50px;
+  width: 610px;
+  height: 380px;
+}
