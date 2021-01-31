@@ -7,7 +7,7 @@ const VideoCard = () => {
     return(
         <div className={styles.videoCard}>
             <div className={styles.videoCardTransparent}>
-                <a>Naayak</a>
+                <a href="https://google.com">Naayak</a>
                 <div className={styles.bottomDiv}>
                     <div>
                         {/* https://mdbootstrap.com/docs/react/content/icons-usage/ */}
@@ -23,7 +23,7 @@ const VideoCard = () => {
             </div>
             <div className={styles.videoCardNonTransparent}>
                 <div className={styles.videoCardNonTransparentContent}>
-
+                <iframe className={styles.iframe} title="Movie" src="https://www.youtube.com/embed/W03c_X8VcV0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
